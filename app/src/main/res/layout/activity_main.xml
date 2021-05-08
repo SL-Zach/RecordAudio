@@ -2,58 +2,27 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#232323"
+    android:padding="20dp"
     android:orientation="vertical">
 
     <TextView
+        android:id="@+id/record"
         android:layout_width="match_parent"
         android:layout_height="60dp"
-        android:background="#101010"
+        android:background="#CCCCCC"
         android:gravity="center"
         android:text="Record"
-        android:textColor="#D2D2D2"
         android:textSize="16sp" />
 
-    <com.demo.recordaudio.AudioRecordView
-        android:id="@+id/record_view"
+    <TextView
+        android:id="@+id/clip"
         android:layout_width="match_parent"
-        android:layout_height="320dp"
-        android:layout_below="@+id/view" />
-
-    <RelativeLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="40dp">
-
-        <TextView
-            android:id="@+id/tv_time"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_centerInParent="true"
-            android:gravity="center_vertical"
-            android:text="00:00:00"
-            android:textColor="@android:color/white"
-            android:textSize="40sp" />
-
-        <ImageView
-            android:id="@+id/iv_reset"
-            android:layout_width="28dp"
-            android:layout_height="28dp"
-            android:layout_centerVertical="true"
-            android:layout_marginStart="15dp"
-            android:layout_toRightOf="@+id/tv_time"
-            android:src="@drawable/selector_reset_record" />
-
-    </RelativeLayout>
-
-    <CheckBox
-        android:id="@+id/cb_record"
-        android:layout_width="65dp"
-        android:layout_height="65dp"
-        android:layout_gravity="center_horizontal"
-        android:layout_marginTop="40dp"
-        android:background="@drawable/selector_record_checkbox"
-        android:button="@null" />
+        android:layout_height="60dp"
+        android:background="#CCCCCC"
+        android:gravity="center"
+        android:layout_marginTop="20dp"
+        android:text="Clip"
+        android:textSize="16sp" />
 
 
 </LinearLayout>
