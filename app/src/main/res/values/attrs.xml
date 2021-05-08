@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 音频裁剪自定义View -->
+    <declare-styleable name="AudioClipView">
+        <attr name="backgroundColor" format="color" />
+        <attr name="borderColor" format="color" />
+        <attr name="cursorColor" format="color" />
+        <attr name="borderWidth" format="dimension" />
+        <attr name="waveLineWidth" format="dimension" />
+        <attr name="waveLineGap" format="dimension" />
+        <attr name="viewHeight" format="dimension" />
+        <attr name="roundRadius" format="dimension" />
+        <attr name="cursorWidth" format="dimension" />
+        <attr name="leftImage" format="reference" />
+        <attr name="rightImage" format="reference" />
+
+    </declare-styleable>
+</resources>
